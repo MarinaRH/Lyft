@@ -1,3 +1,271 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilos de tu proyecto*/
+body {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*Estilos para Navegador */
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 640px;
+  background-image: url(../assets/images/hero.gif);
+  background-size: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+nav {
+width: 100%;
+text-align: left;
+transform: translateY(50%);
+height: 100px;
+}
+
+.nav-lyft ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 120px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.li-right {
+  transform: translateY(-50%);
+}
+
+.li-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.botton {
+  border: 2px solid white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+a img {
+  width: 65px;
+}
+
+.logo {
+  width: 700px;
+}
+
+/*Primera parte del body*/
+section {
+  width: 100%;
+  overflow: auto;
+}
+.first-box {
+  box-sizing: border-box;
+  padding: 50px;
+  color: rgb(18, 12, 69);
+  float: right;
+  width: 560px;
+  height: 420px;
+  background-color: white;
+  margin-top: 35px;
+}
+h1 {
+  font-size: 42px;
+  margin: 0;
+}
+.first-box span {
+  margin-top: 15px;
+  font-weight: 600;
+  display: inline-block;
+}
+input {
+  width: 90%;
+  height: 14px;
+  border:none;
+  border-bottom: 1px solid blue;
+  padding: 15px 0;
+  margin: 14px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+button {
+  background: rgb(235, 40, 192);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 16px;
+  margin: 15px 0;
+  display: inline-block;
+}
+.first-box h4 {
+  display:inline-block;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+.first-box a {
+  color: gray;
+}
+.first-box p {
+  font-size: 12px;
+  color: gray;
+  font-weight: 500;
+}
+/*Linea degrade entre la Primera seccion y la segunda*/
+.gradient {
+  height: 7rem;
+  background: linear-gradient(transparent,#76278f);
+  position: relative;
+  bottom: 20px;
+}
+/* Segunda sección*/
+.second {
+}
+section.second {
+  background: linear-gradient(#76278F, #2B1E66);
+  column-count: 2;
+  column-width: 50%;
+  column-gap: 20px;
+  color: white;
+}
+.box-lefth {
+  padding: 0px 0 0px 150px;
+  margin-bottom: 100px;
+}
+.box-lefth h2 {
+  font-size: 27px;
+}
+.box-lefth p {
+  font-size: 16px;
+  padding-bottom: 40px;
+  font-weight: normal;
+}
+.subt {
+  padding-top: 21px;
+}
+.box-rigth {
+  padding: 0px 0 30px 0px;
+}
+.box-rigth img {
+  width: 500px;
+}
+/*****************Sección video*************************/
+/*Primera parte*/
+.video-first-section {
+  overflow: auto;
+}
+.video-first-section-left {
+  float: left;
+  width: 500px;
+}
+ .h6 {
+  padding: 0 0 0 60px;
+  margin: 50px 0 0 0;
+  font-size: 12px;
+}
+.h2 {
+  padding: 0 0 0 60px;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+.p {
+  padding: 0 80px 0 60px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #333447;
+}
+/*Segunda Parte*/
+.video-second-section {
+  overflow: auto;
+}
+.video-second-section-right {
+  float: right;
+  width: 500px;
+}
+/* Tercera Parte*/
+.video-third-section {
+  overflow: auto;
+}
+.video-third-section-left {
+  float: left;
+  width: 500px;
+}
+
+
+ /**************footer****************/
+ .text-uppercase {
+  text-transform: uppercase;
+ }
+ footer {
+   background:#333447;
+   width: 100%;
+   height: 400px;
+   text-align: center;
+   color: white;
+   padding-left: 56px;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ div.footer {
+   column-width: 25%;
+   column-count: 4;
+   column-gap: 7px;
+   text-align: justify;
+   padding: 21px;
+ }
+ div.foot {
+   width: 200px;
+   height: 235px;
+   box-sizing: border-box;
+   padding-top: 21px;
+   line-height: 1.4;
+
+ }
+  div.image {
+    display: inline-block;
+    padding-top: 14px;
+  }
+
+.image img {
+  max-width: 100%;
+  width: 100px;
+  display: block;
+  padding: 18px 0;
+  border-radius: 14px;
+}
+
+i.icon{
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 12px;
+  border: 1px solid white;
+  height: 14px;
+  width: 14px;
+  margin: 14px 28px;
+}
+hr {
+  width: 70%;
+  margin-left: 100px;
+}
+a.link {
+  text-decoration: none;
+  color: white;
+}
+
+a.link:hover {
+  text-decoration: underline;
+  color:#FF00BF;
+}
